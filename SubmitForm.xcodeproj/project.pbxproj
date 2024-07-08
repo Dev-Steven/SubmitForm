@@ -11,6 +11,7 @@
 		A57B041B2C3C675100A00257 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B041A2C3C675100A00257 /* ContentView.swift */; };
 		A57B041D2C3C675200A00257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57B041C2C3C675200A00257 /* Assets.xcassets */; };
 		A57B04202C3C675200A00257 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57B041F2C3C675200A00257 /* Preview Assets.xcassets */; };
+		A57B04272C3C88DA00A00257 /* CreatePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B04262C3C88DA00A00257 /* CreatePost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A57B041A2C3C675100A00257 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A57B041C2C3C675200A00257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A57B041F2C3C675200A00257 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A57B04262C3C88DA00A00257 /* CreatePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A57B04182C3C675100A00257 /* SubmitFormApp.swift */,
 				A57B041A2C3C675100A00257 /* ContentView.swift */,
+				A57B04262C3C88DA00A00257 /* CreatePost.swift */,
 				A57B041C2C3C675200A00257 /* Assets.xcassets */,
 				A57B041E2C3C675200A00257 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57B04272C3C88DA00A00257 /* CreatePost.swift in Sources */,
 				A57B041B2C3C675100A00257 /* ContentView.swift in Sources */,
 				A57B04192C3C675100A00257 /* SubmitFormApp.swift in Sources */,
 			);

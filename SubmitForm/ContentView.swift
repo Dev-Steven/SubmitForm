@@ -9,13 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack {
+                Image(systemName: "fork.knife")
+                    .imageScale(.large)
+                Text("Hello, Foodie!")
+                NavigationLink("Add meal", value: "Bob")
+            }.navigationDestination(for: String.self, destination: { value in
+                VStack {
+                    CreatePost(userName: value)
+                }
+                
+            })
+            .padding()
         }
-        .padding()
     }
 }
 
